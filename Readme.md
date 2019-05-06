@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Алексей Савинов](https://up.htmlacademy.ru/htmlcss/25/user/673245).
-* Наставник: `Неизвестно`.
+* Наставник: [Руслан Бреев](https://htmlacademy.ru/profile/blckwltz).
 
 ---
 
