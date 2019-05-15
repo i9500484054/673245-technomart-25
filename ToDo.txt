@@ -1,0 +1,39 @@
+Список задач
+
+1.Разметка Хедер
+2.Разметка Майн 
+3.Разметка Футера
+
+header
+
+-header-top--bg
+--header-top--wrap
+---header-top__logo
+---header-top__search
+----search__icon
+----search__form
+---header-top__bookmarks
+---header-top__basket
+---header-top__checkout
+
+header--wrap
+
+-header-center
+--header-center__main-title
+--header-center__contacts
+---contacts__tel
+---contacts__adress
+--header-center__personal-area
+---personal-area__sign-in
+----sign-in__login-link
+----sign-in__registration-link
+---personal-area__user-main
+----user-main__user-name
+----user-main__my-orders
+----user-main__per-area
+
+-header__header-bottom
+--header-bottom__navigation
+---navigation__list
+----navigation__item
+-----navigation__link
