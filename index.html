@@ -9,38 +9,39 @@
     <header class="header">
 			
 			
-      <!-- Х-Верхний контейнер--Фон -->
-      <div class="header__header-top header-top--bg">
-        <!-- Х-Верхний контейнер--Центровщик -->
-        <div class="header-top--wrap">
-          <!-- ХВК-Логотип -->
-          <a class="header-top__logo" href="#">техномарт</a>
-          <!-- ХВК-Форма поиска -->
-          <form class="header-top__search search" method="post" action="#">
-						<label class="search__icon" for="search"><span class="visibility-hidden">Поиск</span></label>
-            <input class="search__form" id="search" type="text" placeholder="Поиск:" name="text">
-          </form>
-          <!-- ХВК-Закладки -->
-          <a class="header-top__bookmarks" href="#">Закладки: 0</a>
-          <!-- ХВК-Корзина -->
-          <a class="header-top__basket" href="#">Корзина: 0</a>
-          <!-- ХВК-Кнопка Оформить Заказ -->
-          <a class="header-top__checkout" href="#">Оформить заказ</a>
-        </div>
-      </div>
+			<!-- Х-Центровщик -->
+			<div class="header--wrap">
 
-
-      <!-- Х--Центровщик -->
-      <div class="header--wrap">
+				<nav>
+					<li> 
+						<img class="header-top__logo" src="img/logo.png" width="220" height="47" alt="Логотип">
+					</li>
+					<li>
+						<form class="header-top__search search" method="post" action="#">
+							<label class="search__icon" for="search"><span class="visibility-hidden">Поиск</span></label>
+							<input class="search__form" id="search" type="text" placeholder="Поиск:" name="text">
+						</form>
+					</li>
+					<li>
+						<a class="header-top__bookmarks" href="#">Закладки: 0</a>
+					</li>
+					<li>
+							<a class="header-top__basket" href="#">Корзина: 0</a>
+					</li>
+					<li>
+						<a class="header-top__checkout" href="#">Оформить заказ</a>
+					</li>
+				</nav>
+				
 
         <!-- Х-Средний Контейнер--Центровщик -->
         <div class="header__header-center header-center">
           <!-- ХСК-Заголовок -->
-          <h1 class="header-center__main-title">
+          <h2 class="header-center__main-title">
             Интернет-магазин<br>	
             строительных материалов<br>
             и инструментов для ремонта
-          </h1>
+          </h2>
           <!-- ХСК-Контакты  -->
           <section class="header-center__contacts contacts">
             <h2 class="visibility-hidden">Контактные данные</h2>
@@ -104,7 +105,7 @@
 
 		<!-- Главный контент -->
     <main class="main">
-			<h2 class="visibility-hidden">Главный контент интернет-магазина техномарт</h2>
+			<h1 class="visibility-hidden">Главный контент интернет-магазина техномарт</h1>
 			<!-- Услуги -->
 			<section class="main__services services">
 				<!-- У-Заголовок -->
@@ -411,11 +412,11 @@
 	
 			</main>
 	
-	
+
 			<footer class="footer">
 	
 				<div class="footer__footer-top footer-top"">
-					<a class="footer-top__logo" href="#">техномарт</a>
+					<img class="footer-top__logo" src="img/logo.png" width="220" height="47" alt="логотип подвала">
 					<ul class="footer-top__nav-list">
 						<li>
 							<a class="footer-top__nav-item" href="#">Компания</a>
@@ -457,40 +458,37 @@
 				</div>
 	
 				<div class="footer-bottom">
-	
-					<div class="footer-wrapper">
-	
-						<div class="footer-bottom__market">
-							<span class="footer-bottom__text">
-								© 2010–2017 Компания «Техномарт»<br>
-								Все права защищены
-							</span> 
-						</div>
-						
-						</ul> 
-						<ul class="social">
-								<li>
-									<a class="social-vk" href="#"><span class="visibility-hidden">Вконтакте</span></a>
-								</li>
-								<li>
-									<a class="social-fb" href="#"><span class="visibility-hidden">Фейсбук</span></a>
-								</li>
-								<li>
-									<a class="social-in" href="#"><span class="visibility-hidden">Инстаграмм<</span></a>
-								</li>
-							</ul>
-						
-						<ul class="footer-bottom__info">
+		
+					<div class="footer-bottom__market">
+						<span class="footer-bottom__text">
+							© 2010–2017 Компания «Техномарт»<br>
+							Все права защищены
+						</span> 
+					</div>
+					
+					</ul> 
+					<ul class="social">
 							<li>
-								<span class="footer-bottom__text">Обратная связь:</span><br>	
-								<a class="footer-bottom__link" href="#">mail@htmlacademy.ru</a>
+								<a class="social-vk" href="#"><span class="visibility-hidden">Вконтакте</span></a>
 							</li>
 							<li>
-								<span class="footer-bottom__text">Разработано -</span><br>
-								<a class="footer-bottom__link" href="mail@htmlacademy.ru">htmlacademy.ru</a>
+								<a class="social-fb" href="#"><span class="visibility-hidden">Фейсбук</span></a>
+							</li>
+							<li>
+								<a class="social-in" href="#"><span class="visibility-hidden">Инстаграмм<</span></a>
 							</li>
 						</ul>
-					</div>
+					
+					<ul class="footer-bottom__info">
+						<li>
+							<span class="footer-bottom__text">Обратная связь:</span><br>	
+							<a class="footer-bottom__link" href="#">mail@htmlacademy.ru</a>
+						</li>
+						<li>
+							<span class="footer-bottom__text">Разработано -</span><br>
+							<a class="footer-bottom__link" href="mail@htmlacademy.ru">htmlacademy.ru</a>
+						</li>
+					</ul>
 	
 				</div>
   </body>
