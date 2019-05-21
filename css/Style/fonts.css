@@ -1,0 +1,116 @@
+
+/**************** ПОДКЛЮЧАЕМ ШИРИФТ CUPRUM **************************/
+
+@font-face {
+	font-family: 'Сuprum';
+	src: url('../fonts/Cuprum/cuprum.woff') format('woff'), 
+		 url('../fonts/Cuprum/cuprum.woff2') format('woff2'),
+		 url('../fonts/Cuprum/Cuprum-Regular.ttf') format('truetype');
+		 font-weight: normal;
+	 	 font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Сuprum';
+	src: url('../fonts/Cuprum/cuprumbold.woff') format('woff'), 
+		 url('../fonts/Cuprum/cuprumbold.woff2') format('woff2'),
+		 url('../fonts/Cuprum/Cuprum-Bold.ttf') format('truetype');
+		 font-weight: bold;
+	 	 font-style: normal;
+}
+
+@font-face {
+	font-family: 'Сuprum';
+	src: url('../fonts/Cuprum/cuprumbolditalic.woff') format('woff'), 
+		 url('../fonts/Cuprum/cuprumbolditalic.woff2') format('woff2'),
+		 url('../fonts/Cuprum/Cuprum-BoldItalic.ttf') format('truetype');
+		 font-weight: bold;
+	 	 font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Сuprum';
+	src: url('../fonts/Cuprum/cuprumitalic.woff') format('woff'), 
+		 url('../fonts/Cuprum/cuprumitalic.woff2') format('woff2'),
+		 url('../fonts/Cuprum/Cuprum-Italic.ttf') format('truetype');
+		 font-weight: normal;
+	 	 font-style: italic;
+}
+
+
+/**************** ПОДКЛЮЧАЕМ ШИРИФТ PT Sans **************************/
+
+@font-face {
+	font-family: 'PT Sans';
+	src: url('../fonts/PT Sans/ptsans.woff') format('woff'), 
+		 url('../fonts/PT Sans/ptsans.woff2') format('woff2'),
+		 url('../fonts/PT Sans/PTS.ttf') format('truetype');
+		 font-weight: normal;
+	 	 font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'PT Sans';
+	src: url('../fonts/PT Sans/ptsansbold.woff') format('woff'), 
+		 url('../fonts/PT Sans/ptsansbold.woff2') format('woff2'),
+		 url('../fonts/PT Sans/PTS-Bold.ttf') format('truetype');
+		 font-weight: bold;
+	 	 font-style: normal;
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	src: url('../fonts/PT Sans/PTS-Bold-italic.ttf') format('truetype');
+		 font-weight: bold;
+	 	 font-style: italic;
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	src: url('../fonts/PT Sans/PTS-Italic.ttf') format('truetype');
+		 font-weight: normal;
+	 	 font-style: italic;
+}
+
+/**************** ПОДКЛЮЧАЕМ ШИРИФТ PT Sans Narrow **************************/
+
+@font-face {
+	font-family: 'PT Sans Narrow';
+	src: url('../fonts/PT Sans/PTSN.ttf') format('truetype');
+		 font-weight: normal;
+	 	 font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'PT Sans Narrow';
+	src: url('../fonts/PT Sans/PTSN-bold.ttf') format('truetype');
+		 font-weight: bold;
+	 	 font-style: normal;
+}
+
+
+
+/**************** ПОДКЛЮЧАЕМ ШИРИФТ PT Sans Caption **************************/
+
+
+@font-face {
+	font-family: 'PT Sans Caption';
+	src: url('../fonts/PT Sans/PTSC.ttf') format('truetype');
+		 font-weight: normal;
+	 	 font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'PT Sans Caption';
+	src: url('../fonts/PT Sans/PTSC-bold.ttf') format('truetype');
+		 font-weight: bold;
+	 	 font-style: normal;
+}
+
+
+

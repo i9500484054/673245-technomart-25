@@ -1,39 +1,21 @@
 Список задач
 
-1.Разметка Хедер
-2.Разметка Майн 
-3.Разметка Футера
+1.Выполнить HTML разметку
+1.1 index.html +
+1.2 catalog.html +
 
-header
+3.Работа с графикой
 
--header-top--bg
---header-top--wrap
----header-top__logo
----header-top__search
-----search__icon
-----search__form
----header-top__bookmarks
----header-top__basket
----header-top__checkout
+3.Доступность и формы
 
-header--wrap
+4.Введение в CSS
 
--header-center
---header-center__main-title
---header-center__contacts
----contacts__tel
----contacts__adress
---header-center__personal-area
----personal-area__sign-in
-----sign-in__login-link
-----sign-in__registration-link
----personal-area__user-main
-----user-main__user-name
-----user-main__my-orders
-----user-main__per-area
 
--header__header-bottom
---header-bottom__navigation
----navigation__list
-----navigation__item
------navigation__link
+Вопросы к Наставнику
+
+1.Как правильно применять aria-label?
+2.Спросить про последованность
+
+
+добавить кнопкам тип - button
+добавить карте описания с адрессом 
