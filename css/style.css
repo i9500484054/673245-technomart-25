@@ -1,10 +1,33 @@
 
-@import url('style/normalize.css');
-@import url('style/fonts.css');
-@import url('style/general.css');
-@import url('style/header.css');
-@import url('style/main.css');
-@import url('style/footer.css');
+@import url('0.normalize.css');
+@import url('0.fonts.css');
+
+@import url('1.main.css');
+  @import url('2.0.header.css');
+    @import url('2.1.header-top.css');
+    @import url('2.2.header-center.css');
+    @import url('2.3.header-bottom.css');
+@import url('3.0.main.css');
+  @import url('3.1.0.activity.css');
+    @import url('3.1.1.activity__slider.css');
+  @import url('3.2.0.goods.css');
+  @import url('3.3.0.brands.css');
+  @import url('3.4.0.advantage.css');
+  @import url('3.5.0.delivery.css');
+  @import url('3.6.0.contacts.css');
+  @import url('3.7.0.feedback.css');
+  @import url('3.8.0.Item-added-cart.css');
+  @import url('4.0.footer.css');
+  @import url('4.1.footer-top.css');
+  @import url('4.2.footer-center.css');
+  @import url('4.3.footer-bottom.css');
+  @import url('5.0.main-navigation.css');
+  @import url('6.0.filter.css');
+  @import url('7.0.goodsc.css');
+  @import url('8.0.description.css');
+
+
+
 
 
 

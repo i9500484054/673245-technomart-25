@@ -1,0 +1,16 @@
+.header {
+  margin-bottom: 59px;
+  
+  background: linear-gradient(360deg, #f4f7f9 280px, #293449 1px);
+}
+
+.header__header-container {
+  width: 940px;
+  height: 320px;
+  margin: 0 auto;
+}
+
+
+.header__catalog {
+  margin: 0;
+}

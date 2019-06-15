@@ -1,0 +1,79 @@
+.main {
+  margin: 0 auto;
+}
+
+
+.main__activity {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 940px;
+  margin: 0 auto;
+  margin-bottom: 53px;
+}
+
+
+.main__goods {
+  width: 940px;
+  margin: 0 auto;
+  margin-bottom: 11px;
+}
+
+.main__brands {
+  width: 940px;
+ 
+}
+
+.main__advantage {
+  height: 522px;
+  margin: 0 auto;
+  background-color: #f4f7f9;
+}
+
+.main__wrapper-box {
+  width: 940px;
+  margin: 0 auto;
+  margin-top: 82px;
+  margin-bottom: 86px;
+
+  display: flex;
+}
+
+.main-catalog__title {
+  width: 940px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-top: 32px;
+  padding: 34px;
+  margin-bottom: 20px;
+
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+
+  background-color: #f2f6f8;  
+}
+
+.main-catalog__wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+  margin: 0 auto;
+}
+.main-catalog__main-navigation {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.new:before {
+  content: '';
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  width: 60px;
+  height: 59px;
+  
+  background-image: url(../img/new-flag.png);
+}
