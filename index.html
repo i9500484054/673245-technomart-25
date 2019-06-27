@@ -29,7 +29,7 @@
       <div class="header__header-center header-center">
         <h2 class="header-center__hc-title">
           Интернет-магазин
-          строительных материалов
+          строительных материалов<br>
           и инструментов для ремонта
         </h2>
         <section class="header-center__hc-contacts hc-contacts">
@@ -49,26 +49,26 @@
         <h2 class="visually-hidden">Основная навигация по сайту</h2>
         <nav class="header-bottom__hb-navigation hb-navigation">
           <ul class="hb-navigation__list">
-            <li>
-              <a href="index.html">Главная</a>
+            <li class="hb-navigation__list-li">
+              <a class="hb-navigation__list-li-a hb-navigation__list-first-child" href="index.html">Главная</a>
             </li>
-            <li>
-              <a href="#">Компания</a>
+            <li class="hb-navigation__list-li">
+              <a class="hb-navigation__list-li-a" href="#">Компания</a>
             </li>
-            <li>
-              <a href="catalog.html">Каталог</a>
+            <li class="hb-navigation__list-li">
+              <a class="hb-navigation__list-li-a" href="catalog.html">Каталог</a>
             </li>
-            <li>
-              <a href="#">Новости</a>
+            <li class="hb-navigation__list-li">
+              <a class="hb-navigation__list-li-a" href="#">Новости</a>
             </li>
-            <li>
-              <a href="#">Спецпредложения</a>
+            <li class="hb-navigation__list-li">
+              <a class="hb-navigation__list-li-a" href="#">Спецпредложения</a>
             </li>
-            <li>
-              <a href="#">Доставка</a>
+            <li class="hb-navigation__list-li">
+              <a class="hb-navigation__list-li-a" href="#">Доставка</a>
             </li>
-            <li>
-              <a href="#">Контакты</a>
+            <li class="hb-navigation__list-li">
+              <a class="hb-navigation__list-last-child hb-navigation__list-li-a" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -297,12 +297,12 @@
     <div class="main__wrapper-box">
       <section class="delivery">
         <h2 class="delivery__title">компания «Техномарт»</h2>
-        <p class="delivery__text">
-          Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и<br>
+        <p class="delivery__text delivery__text--erre">
+          Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
           строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.
         </p>
-        <p class="delivery__text">
-          Мы можем доставить ваш товар в самые отдаленные точки России!<br>
+        <p class="delivery__text delivery__text--err">
+          Мы можем доставить ваш товар в самые отдаленные точки России!
           Техномарт работает со многими транспортными компаниями:
         </p>
         <ul class="delivery__list">
@@ -340,7 +340,8 @@
             </p>
           </div>
           <p class="feedback__feedback-textarea feedback-textarea">
-            <label class="feedback-textarea__title feedback-textarea__title--comment-block" for="comment">Текст письма:</label>
+            <label class="feedback-textarea__title feedback-textarea__title--comment-block" for="comment">Текст
+              письма:</label>
             <textarea class="feedback-textarea__text" id="comment" name="comment" cols="40" rows="3"
               placeholder="В свободной форме" required></textarea>
           </p>
@@ -354,16 +355,15 @@
       </form>
     </section>
     <section class="modal-map">
-      <h2 class="visually-hidden">Карта</h2>
-      <iframe src="https://yandex.ru/map-widget/v1/-/CGghyja" width="760" height="500"></iframe>
+      <iframe src="https://yandex.ru/map-widget/v1/-/CCWhIOZ1" width="940" height="446"></iframe>
       <button class="feedback__btn-close btn-close" type="button">
         <span class="visually-hidden">Закрыть</span>
       </button>
     </section>
-    <section class="Item-added-cart">
+    <section class="item-added-cart">
       <h2 class="visually-hidden">Товар добавлен в корзину!</h2>
-      <span class="Item-added-cart__text">Товар добавлен в корзину!</span>
-      <div class="Item-added-cart__btn-wrap">
+      <span class="item-added-cart__text">Товар добавлен в корзину!</span>
+      <div class="item-added-cart__btn-wrap">
         <a class="button" href="#">ОФОРМИТЬ ЗАКАЗ</a>
         <a class="button" href="#">ПРОДОЛЖИТЬ ПОКУПКИ</a>
       </div>
@@ -419,7 +419,7 @@
       <div class="footer-bottom">
         <div class="footer-bottom__text footer-bottom__text--right">
           <div>© 2010–2017 Компания «Техномарт»</div>
-          <div>Все права защищены</div> 
+          <div>Все права защищены</div>
         </div>
         <ul class="social">
           <li>

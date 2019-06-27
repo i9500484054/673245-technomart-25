@@ -6,7 +6,7 @@ var mapLink = document.querySelector(".contacts-button-map");
 var mapPopup = document.querySelector(".modal-map");
 var mapClose = mapPopup.querySelector(".btn-close");
 var itemCartLink = document.querySelector(".catalog-list__buy");
-var itemCartmapPopup = document.querySelector(".Item-added-cart");
+var itemCartmapPopup = document.querySelector(".item-added-cart");
 var itemCartmapClose = itemCartmapPopup.querySelector(".btn-close-cart");
 
 
